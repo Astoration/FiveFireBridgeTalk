@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B630E5591C3A396F00729BBF /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630E5581C3A396F00729BBF /* MessageInputView.swift */; };
+		B630E55B1C3A6CCD00729BBF /* TalkRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630E55A1C3A6CCD00729BBF /* TalkRoomViewController.swift */; };
 		B6FCE2761C3A0AC400D49066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCE2751C3A0AC400D49066 /* AppDelegate.swift */; };
 		B6FCE2781C3A0AC400D49066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCE2771C3A0AC400D49066 /* ViewController.swift */; };
 		B6FCE27B1C3A0AC400D49066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FCE2791C3A0AC400D49066 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B6FCE2801C3A0AC400D49066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FCE27E1C3A0AC400D49066 /* LaunchScreen.storyboard */; };
 		B6FCE28B1C3A0AC400D49066 /* FiveFireBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCE28A1C3A0AC400D49066 /* FiveFireBridgeTests.swift */; };
 		B6FCE2961C3A0AC400D49066 /* FiveFireBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCE2951C3A0AC400D49066 /* FiveFireBridgeUITests.swift */; };
+		D6450E500539DF95D4969C0E /* Pods_FiveFireBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36472FB51EAD7ED7E360FD67 /* Pods_FiveFireBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36472FB51EAD7ED7E360FD67 /* Pods_FiveFireBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiveFireBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DE60D2A6B542296BFC23ED /* Pods-FiveFireBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiveFireBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FiveFireBridge/Pods-FiveFireBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		B630E5551C3A173400729BBF /* FiveFireBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiveFireBridge-Bridging-Header.h"; sourceTree = "<group>"; };
+		B630E5581C3A396F00729BBF /* MessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		B630E55A1C3A6CCD00729BBF /* TalkRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkRoomViewController.swift; sourceTree = "<group>"; };
 		B6FCE2721C3A0AC400D49066 /* FiveFireBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveFireBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FCE2751C3A0AC400D49066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6FCE2771C3A0AC400D49066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 		B6FCE2911C3A0AC400D49066 /* FiveFireBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveFireBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FCE2951C3A0AC400D49066 /* FiveFireBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveFireBridgeUITests.swift; sourceTree = "<group>"; };
 		B6FCE2971C3A0AC400D49066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEE2A603F739DEB043536AF /* Pods-FiveFireBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiveFireBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FiveFireBridge/Pods-FiveFireBridge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6450E500539DF95D4969C0E /* Pods_FiveFireBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3909559CEB4422F033CAFCD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73DE60D2A6B542296BFC23ED /* Pods-FiveFireBridge.debug.xcconfig */,
+				EBEE2A603F739DEB043536AF /* Pods-FiveFireBridge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92F54959F6FCF37E9074D045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36472FB51EAD7ED7E360FD67 /* Pods_FiveFireBridge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6FCE2691C3A0AC400D49066 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				B6FCE2891C3A0AC400D49066 /* FiveFireBridgeTests */,
 				B6FCE2941C3A0AC400D49066 /* FiveFireBridgeUITests */,
 				B6FCE2731C3A0AC400D49066 /* Products */,
+				3909559CEB4422F033CAFCD5 /* Pods */,
+				92F54959F6FCF37E9074D045 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +132,9 @@
 				B6FCE27C1C3A0AC400D49066 /* Assets.xcassets */,
 				B6FCE27E1C3A0AC400D49066 /* LaunchScreen.storyboard */,
 				B6FCE2811C3A0AC400D49066 /* Info.plist */,
+				B630E5551C3A173400729BBF /* FiveFireBridge-Bridging-Header.h */,
+				B630E5581C3A396F00729BBF /* MessageInputView.swift */,
+				B630E55A1C3A6CCD00729BBF /* TalkRoomViewController.swift */,
 			);
 			path = FiveFireBridge;
 			sourceTree = "<group>";
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6FCE29A1C3A0AC400D49066 /* Build configuration list for PBXNativeTarget "FiveFireBridge" */;
 			buildPhases = (
+				077CBE30A6C936698FDA4CB7 /* Check Pods Manifest.lock */,
 				B6FCE26E1C3A0AC400D49066 /* Sources */,
 				B6FCE26F1C3A0AC400D49066 /* Frameworks */,
 				B6FCE2701C3A0AC400D49066 /* Resources */,
+				DDD81D6754C531F67FFFB7D2 /* Embed Pods Frameworks */,
+				5E8919E616D8EA98BB181E5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +289,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		077CBE30A6C936698FDA4CB7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8919E616D8EA98BB181E5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiveFireBridge/Pods-FiveFireBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDD81D6754C531F67FFFB7D2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiveFireBridge/Pods-FiveFireBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6FCE26E1C3A0AC400D49066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B6FCE2781C3A0AC400D49066 /* ViewController.swift in Sources */,
+				B630E5591C3A396F00729BBF /* MessageInputView.swift in Sources */,
 				B6FCE2761C3A0AC400D49066 /* AppDelegate.swift in Sources */,
+				B630E55B1C3A6CCD00729BBF /* TalkRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,23 +483,27 @@
 		};
 		B6FCE29B1C3A0AC400D49066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DE60D2A6B542296BFC23ED /* Pods-FiveFireBridge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiveFireBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.astoration.FiveFireBridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FiveFireBridge/FiveFireBridge-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		B6FCE29C1C3A0AC400D49066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEE2A603F739DEB043536AF /* Pods-FiveFireBridge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiveFireBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.astoration.FiveFireBridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FiveFireBridge/FiveFireBridge-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +574,7 @@
 				B6FCE29C1C3A0AC400D49066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6FCE29D1C3A0AC400D49066 /* Build configuration list for PBXNativeTarget "FiveFireBridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +583,7 @@
 				B6FCE29F1C3A0AC400D49066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6FCE2A01C3A0AC400D49066 /* Build configuration list for PBXNativeTarget "FiveFireBridgeUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +592,7 @@
 				B6FCE2A21C3A0AC400D49066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
