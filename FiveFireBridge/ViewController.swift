@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     func startJiver(){
         let APP_ID = "2B979C6D-C9BF-47AE-8FCF-62AE455D387D"
         let USER_ID = UIDevice.currentDevice().identifierForVendor!.UUIDString
-        let USER_NAME = Jiver.deviceUniqueID()
+        let USER_NAME = "Astora"
         let CHANNEL_URL = "41ad5.Lobby"
         
         Jiver.initAppId(APP_ID)

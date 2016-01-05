@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B630E5591C3A396F00729BBF /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630E5581C3A396F00729BBF /* MessageInputView.swift */; };
 		B630E55B1C3A6CCD00729BBF /* TalkRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630E55A1C3A6CCD00729BBF /* TalkRoomViewController.swift */; };
+		B6B821391C3ACF6200864752 /* SectionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B821381C3ACF6200864752 /* SectionLabel.swift */; };
 		B6FCE2761C3A0AC400D49066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCE2751C3A0AC400D49066 /* AppDelegate.swift */; };
 		B6FCE2781C3A0AC400D49066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCE2771C3A0AC400D49066 /* ViewController.swift */; };
 		B6FCE27B1C3A0AC400D49066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FCE2791C3A0AC400D49066 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		B630E5551C3A173400729BBF /* FiveFireBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiveFireBridge-Bridging-Header.h"; sourceTree = "<group>"; };
 		B630E5581C3A396F00729BBF /* MessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 		B630E55A1C3A6CCD00729BBF /* TalkRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkRoomViewController.swift; sourceTree = "<group>"; };
+		B6B821381C3ACF6200864752 /* SectionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionLabel.swift; sourceTree = "<group>"; };
 		B6FCE2721C3A0AC400D49066 /* FiveFireBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveFireBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FCE2751C3A0AC400D49066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6FCE2771C3A0AC400D49066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				B630E5551C3A173400729BBF /* FiveFireBridge-Bridging-Header.h */,
 				B630E5581C3A396F00729BBF /* MessageInputView.swift */,
 				B630E55A1C3A6CCD00729BBF /* TalkRoomViewController.swift */,
+				B6B821381C3ACF6200864752 /* SectionLabel.swift */,
 			);
 			path = FiveFireBridge;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B821391C3ACF6200864752 /* SectionLabel.swift in Sources */,
 				B6FCE2781C3A0AC400D49066 /* ViewController.swift in Sources */,
 				B630E5591C3A396F00729BBF /* MessageInputView.swift in Sources */,
 				B6FCE2761C3A0AC400D49066 /* AppDelegate.swift in Sources */,
